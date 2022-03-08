@@ -1,0 +1,45 @@
+main{
+    display:flex
+}
+.shopNow{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 80px; 
+}
+section{
+    width: 50%;
+}
+body{
+    margin: 0px;
+}
+.magzine{
+    background-color: red;
+    height: 866px;
+}
+h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: red;
+}
+img{
+    display: block;
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-size: 24px;
+    padding:  16px 32px;
+}
