@@ -1,0 +1,63 @@
+main{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+body{
+    margin:0%;
+    background-color: lightgrey;
+}
+.shopByCategory{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: min-content;
+    padding:0px;
+    margin-top: 20px;
+    border-bottom: 3px solid gray;
+}
+h1{
+    color:black;
+    background-color:gray;
+    padding:15px;
+    margin:0px;
+    width:fit-content;
+}
+img{
+    width: 250px;
+    height: 243px;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+}
+.Iphones{
+    margin-top: 5%;
+}
+.Ipads{
+    margin-top: 5%;
+}
+.Airpods{
+    margin-top: 5%;
+}
+.categories > div{
+    background-color:gray;
+    padding:15px;
+    border: 2px solid white;
+    text-align: center;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 0px solid gray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    padding:  12px 50px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:700px){
+    .categories{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
